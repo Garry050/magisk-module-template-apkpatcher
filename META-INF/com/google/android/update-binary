@@ -222,9 +222,6 @@ for apkp_target in $apklist; do
   fi;
 done;
 
-# extra required non-patch changes
-. $ap/extracmd.sh;
-
 # cleanup as necessary
 if [ "$cleanup" == 1 ]; then
   cd /tmp;
